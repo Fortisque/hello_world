@@ -1,4 +1,6 @@
 HelloWorld::Application.routes.draw do
+  root :to => 'hello_world#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
